@@ -30,6 +30,17 @@
     font-size: 56px;
     line-height: 80px;
   }
+}
 
-  }
+.text-logo {
+  @include font ($size: 12px, $line-height: 16px);
+  text-decoration: none;
+}
 
+.text-nav {
+  @include font ($size: 12px, $line-height: 16px);
+  text-decoration: none;
+  text-transform: uppercase;
+
+  
+}

@@ -1,0 +1,34 @@
+.icon {
+  overflow: visible;
+
+  @include icon;
+
+  &::before {
+    content: "";
+
+    @include icon;
+  }
+
+  // &::after {
+  //   content: "";
+
+  //   @include icon;
+  // }
+}
+
+.icon--basket::before {
+  display: inline-block;
+  padding-right: 8px;
+  width: 16px;
+  height: 16px;
+  background-image: url('../../icons/basket.svg');
+}
+
+.icon--user::before {
+  display: inline-block;
+  padding-right: 8px;
+  width: 16px;
+  height: 16px;
+  background-image: url('../../icons/user.svg');
+
+}

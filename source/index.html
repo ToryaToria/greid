@@ -11,41 +11,52 @@
 </head>
 
 <body class="page__body text-base">
-  <header class="header">
-    <a href="#">
-      <img src="../../img/" alt="logo">
-      <p class="header__link-descktop">Интернет-магазин кофейных напитков</p>
-    </a>
-    <nav>
-      <ul>
-        <li>
-          <a href="#">Главная</a>
+  <header class="header container">
+
+    <nav class="nav">
+      <a href="#" class="header__logo">
+        <picture>
+          <source media="(min-width:1440px)" srcset="./images/logo/logo_deskt.svg" width="170" height="36">
+          <source media="(min-width:768px)" srcset="./images/logo/logo_tabl.svg" width="82" height="36">
+          <img class="logo-link__img" src="./images/logo/logo_mob.svg" alt="логотип-картинка" width="32" height="36">
+        </picture>
+
+        <p class="header__logo-descktop text-logo">Интернет-магазин <br> кофейных напитков</p>
+      </a>
+
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#" class="nav__link nav__link--current text-nav text-nav">Главная</a>
         </li>
 
         <li>
-          <a href="#">Каталог</a>
+          <a href="#" class="nav__link text-nav">Каталог</a>
         </li>
 
         <li>
-          <a href="#">Доставка</a>
+          <a href="#" class="nav__link text-nav">Доставка</a>
         </li>
 
         <li>
-          <a href="#">О нас</a>
+          <a href="#" class="nav__link text-nav">О нас</a>
         </li>
       </ul>
+
+      <div class="user">
+        <a class="user__link text-nav icon icon--user" href="#">
+          <span class="user__txt">Войти</span>
+        </a>
+
+        <a class="user__link text-nav icon icon--basket" href="#">
+          <span class="user__txt">Корзина</span>
+        </a>
+
+        <button class="hamburger hamburger--open" type="button" aria-label="открыть меню">
+          <span class="visually-hidden">Меню</span>
+        </button>
+      </div>
     </nav>
-    <button>
-      <p>Войти</p>
-    </button>
 
-    <button>
-      <p>Корзина</p>
-    </button>
-
-    <div>
-      гамбургер
-    </div>
 
   </header>
 
@@ -54,12 +65,11 @@
       <h1 class="visually-hidden">drink2go</h1>
       <ul>
         <li>
-          <img src="" alt="Декаф Флэт Уайт">
+          <img src="../" alt="Декаф Флэт Уайт">
           <h2 class="text-badge">Новинка!</h2>
           <p class="slider-title">Декаф Флэт Уайт</p>
           <p class="">Свежесваренный кофе без кофеина из Эфиопии с натуральным фермерским молоком — то, что нужно для
             расслабления после тяжёлого рабочего дня</p>
-        </li>
 
         <div class="hero__buy">
           <p class="text-old-pr">295₽</p>
@@ -68,11 +78,43 @@
           <button type="button">Заказать</button>
 
         </div>
+      </li>
+
+      <li>
+        <img src="../" alt="Лавандовый Латте">
+        <h2 class="text-badge">Новинка!</h2>
+        <p class="slider-title">Лавандовый Латте</p>
+        <p class="">Невероятное сочетание перуанской высокогорной арабики с молоком ламы и лавандовым сиропом унесёт вас прямо на вершину Радужных гор</p>
+
+      <div class="hero__buy">
+        <p class="text-old-pr">285₽</p>
+        <p class="text-price">265₽</p>
+
+        <button type="button">Заказать</button>
+
+      </div>
+    </li>
+
+    <li>
+      <img src="../" alt="Тройной Эспрессо">
+      <h2 class="text-badge">Новинка!</h2>
+      <p class="slider-title">Тройной Эспрессо</p>
+      <p class="">Мощнее укола адреналина, чернее самой тёмной ночи, этот тройной эспрессо из Колумбии покажет вам, что такое настоящая бодрость</p>
+
+    <div class="hero__buy">
+      <p class="text-old-pr">395₽</p>
+      <p class="text-price">375₽</p>
+
+      <button type="button">Заказать</button>
+
+    </div>
+  </li>
+      </ul>
         <div>
           <button type="button">туда</button>
           <button type="button">сюда</button>
         </div>
-      </ul>
+
     </section>
 
     <section class="advantages">
