@@ -56,175 +56,218 @@
         </button>
       </div>
     </nav>
-
-
   </header>
 
   <main>
     <section class="hero">
       <h1 class="visually-hidden">drink2go</h1>
-      <ul>
-        <li>
-          <img src="../" alt="Декаф Флэт Уайт">
-          <h2 class="text-badge">Новинка!</h2>
-          <p class="slider-title">Декаф Флэт Уайт</p>
-          <p class="">Свежесваренный кофе без кофеина из Эфиопии с натуральным фермерским молоком — то, что нужно для
-            расслабления после тяжёлого рабочего дня</p>
 
-        <div class="hero__buy">
-          <p class="text-old-pr">295₽</p>
-          <p class="text-price">225₽</p>
+      <div class="slider">
+        <ul class="slider__list">
+          <li class="slider__item slider__item--1">
+            <img src="./images/slider/flat_white@1x.png" width="280" height="280" alt="Декаф Флэт Уайт">
 
-          <button type="button">Заказать</button>
+            <p class="slider__badge text-badge">Новинка!</p>
+            <h2 class="slider__title title-slider">Декаф Флэт Уайт</h2>
+            <p class="slider__text text-base">Свежесваренный кофе без кофеина из Эфиопии с натуральным фермерским
+              молоком — то, что нужно для
+              расслабления после тяжёлого рабочего дня</p>
 
+            <div class="slider__buy">
+              <p class="text-old-price">295₽</p>
+              <p class="text-price">225₽</p>
+
+              <button class="button text-btn" type="button">Заказать</button>
+
+            </div>
+          </li>
+
+          <li class="slider__item slider__item--2">
+            <img src="./images/slider/lavender_img@1x.png" width="280" height="280" alt="Лавандовый Латте">
+
+            <p class="slider__badge text-badge">Новинка!</p>
+            <h2 class="slider__title title-slider">Лавандовый Латте</h2>
+
+            <p class="slider__text text-base">Невероятное сочетание перуанской высокогорной арабики с молоком ламы и
+              лавандовым сиропом унесёт
+              вас прямо на вершину Радужных гор</p>
+
+            <div class="slider__buy">
+              <p class="text-old-price">285₽</p>
+              <p class="text-price">265₽</p>
+
+              <button class="button text-btn" type="button">Заказать</button>
+            </div>
+          </li>
+
+          <li class="slider__item slider__item--3">
+            <img src="./images/slider/espresso@1x.png" width="280" height="280" alt="Тройной Эспрессо">
+
+            <p class="slider__badge text-badge">Новинка!</p>
+            <h2 class="slider__title title-slider">Тройной Эспрессо</h2>
+            <p class="slider__text text-base">Мощнее укола адреналина, чернее самой тёмной ночи, этот тройной эспрессо
+              из Колумбии покажет
+              вам, что такое настоящая бодрость</p>
+
+            <div class="slider__buy">
+              <p class="text-old-price">395₽</p>
+              <p class="text-price">375₽</p>
+
+              <button class="button text-btn" type="button">Заказать</button>
+
+            </div>
+          </li>
+        </ul>
+
+        <div class="slider__btn-wrapp">
+          <button class="slider__arr" type="button"></button>
+          <button class="slider__arr slider__arr--r" type="button"></button>
         </div>
-      </li>
-
-      <li>
-        <img src="../" alt="Лавандовый Латте">
-        <h2 class="text-badge">Новинка!</h2>
-        <p class="slider-title">Лавандовый Латте</p>
-        <p class="">Невероятное сочетание перуанской высокогорной арабики с молоком ламы и лавандовым сиропом унесёт вас прямо на вершину Радужных гор</p>
-
-      <div class="hero__buy">
-        <p class="text-old-pr">285₽</p>
-        <p class="text-price">265₽</p>
-
-        <button type="button">Заказать</button>
-
       </div>
-    </li>
-
-    <li>
-      <img src="../" alt="Тройной Эспрессо">
-      <h2 class="text-badge">Новинка!</h2>
-      <p class="slider-title">Тройной Эспрессо</p>
-      <p class="">Мощнее укола адреналина, чернее самой тёмной ночи, этот тройной эспрессо из Колумбии покажет вам, что такое настоящая бодрость</p>
-
-    <div class="hero__buy">
-      <p class="text-old-pr">395₽</p>
-      <p class="text-price">375₽</p>
-
-      <button type="button">Заказать</button>
-
-    </div>
-  </li>
-      </ul>
-        <div>
-          <button type="button">туда</button>
-          <button type="button">сюда</button>
-        </div>
-
     </section>
 
-    <section class="advantages">
-      <h2 class="text-badge">Преимущества</h2>
-      <p class="text--subtitle">Главные причины выбрать Drink2Go</p>
+    <section class="advantages container">
+      <h2 class="advantages__badge text-badge">Преимущества</h2>
+      <p class="advantages__title title-section">Главные причины выбрать Drink2Go</p>
 
-      <ul>
-        <li>
+      <ul class="advantages__list">
+        <li class="advantages__item icon icon--speed">
           <h3 class="text-add">Скорость</h3>
-          <p>Готовый напиток всегда под рукой — просто открой банку</p>
+          <p class="text-base">Готовый напиток всегда под рукой — просто открой банку</p>
         </li>
 
-        <li>
+        <li class="advantages__item icon icon--comfort">
           <h3 class="text-add">Удобство</h3>
-          <p>Легко помещается и в карман,
+          <p class="text-base">Легко помещается и в карман,
             и в маленькую сумочку</p>
         </li>
 
-        <li>
+        <li class="advantages__item icon icon--features">
           <h3 class="text-add">Бодрость</h3>
-          <p>Сбалансированная доза кофеина даст мощный заряд энергии</p>
+          <p class="text-base">Сбалансированная доза кофеина даст мощный заряд энергии</p>
         </li>
 
-        <li>
+        <li class="advantages__item icon icon--ecolog">
           <h3 class="text-add">Экологичность</h3>
-          <p>Вся упаковка сделана
+          <p class="text-base">Вся упаковка сделана
             из перерабатываемых материалов</p>
         </li>
       </ul>
-
-
     </section>
 
-    <section class="catalog">
-      <h2 class="text-badge">Каталог</h2>
-      <p class="text--subtitle">Каталог кофейных напитков</p>
+    <section class="catalog container">
+      <h2 class="catalog__badge text-badge">Каталог</h2>
+      <p class="catalog__section title-section">Каталог кофейных напитков</p>
 
-      <form action="" class="catalog--form">
-        <fieldset>
-          <h3>Цена</h3>
+      <form class="form" action="https://echo.htmlacademy.ru/" method="post">
 
-        </fieldset>
+        <div class="form__field">
+          <h3 class="form__title title-filter">Цена</h3>
 
-        <fieldset>
-          <h3>Наличие молока</h3>
-          <ul>
+          <div class="range">
+            <div class="range__bar">
+              <button class="range__toggle range__toggle--min" type="button">
+                <span class="visually-hidden">Изменить минимальную цену</span>
+              </button>
+              <button class="range__toggle range__toggle--max" type="button">
+                <span class="visually-hidden">Изменить максимальную цену</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="range__wrapp-field">
+
+            <label class="range__label-price " for="min-price">
+
+              <input class="range__field range__field--min-price" type="number" id="min-price" name="min-price"
+                value="0" min="0" placeholder="min">
+            </label>
+
+            <div class="range__xz"></div>
+
+            <label class="range__label-price" for="max-price">
+
+              <input class="range__field range__field--max-price" type="number" id="max-price" name="max-price"
+                value="9000" min="0" placeholder="max">
+            </label>
+          </div>
+        </div>
+
+        <div class="form__field">
+          <h3 class="form__title title-filter">Наличие молока</h3>
+          <ul class="form__list">
             <li>
-              <label for=""> Неважно
-                <input type="text">
+              <label class="control" for="">
+                <span>Неважно</span>
+                <span class="control-mark"></span>
+                <input class="control-input visually-hidden" type="radio" name="milk" value="no matter">
               </label>
             </li>
 
             <li>
-              <label for=""> Только животное
-                <input type="text">
+              <label for="">
+                <span>Только животное</span>
+                <span class="control-mark"></span>
+                <input class="control-input visually-hidden" type="radio" name="milk" value="only an animal">
               </label>
             </li>
 
             <li>
-              <label for=""> Только растительное
-                <input type="text">
+              <label for="">
+                <span>Только растительное</span>
+                <span class="control-mark"></span>
+                <input class="control-input visually-hidden" type="radio" name="milk" value="only vegetable" checked="">
               </label>
             </li>
 
             <li>
-              <label for=""> Без молока
-                <input type="text">
+              <label for="">
+                <span> Без молока</span>
+                <span class="control-mark"></span>
+                <input class="control-input visually-hidden" type="radio" name="milk" value="not milk">
               </label>
             </li>
           </ul>
-        </fieldset>
+        </div>
 
-        <fieldset>
-          <h3>Страна произрастания</h3>
-          <ul></ul>
-          <li>
-            <label for=""> Бразилия
-              <input type="text">
+        <div class="form__field">
+          <h3 class="form__title title-filter">Страна произрастания</h3>
+          <ul class="form__list">
+            <li>
+              <label for=""> Бразилия
+                <input type="checkbox">
+              </label>
+            </li>
+
+            <li>
+              <label for=""> Эфиопия
+                <input type="checkbox">
+              </label>
+            </li>
+
+            <li>
+              <label for=""> Колумбия
+                <input type="checkbox">
+              </label>
+            </li>
+
+            <li>
+              <label for="">Коста-Рика
+                <input type="checkbox">
+              </label>
+            </li>
+
+            <label for="">Перу
+              <input type="checkbox">
             </label>
-          </li>
-
-          <li>
-            <label for=""> Эфиопия
-              <input type="text">
-            </label>
-          </li>
-
-          <li>
-            <label for=""> Колумбия
-              <input type="text">
-            </label>
-          </li>
-
-          <li>
-            <label for="">Коста-Рика
-              <input type="text">
-            </label>
-          </li>
-
-          <label for="">Перу
-            <input type="text">
-          </label>
-          </li>
+            </li>
           </ul>
           <div>
             <button type="submit">Применить</button>
             <button type="reset">Сбросить</button>
 
           </div>
-        </fieldset>
+        </div>
       </form>
       <div class="catalog__sort">
         <p>Сортировка:</p>
