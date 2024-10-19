@@ -56,17 +56,50 @@
 .text-old-price {
   @include font ($size: 16px, $line-height: 32px, $color: $color-base);
   text-decoration: line-through;
-  margin-right: 6px;}
+  margin-right: 6px;
+}
 
-  .text-btn {
-    @include font ($size: 16px, $line-height: 24px, $color: $color-white);
-  }
+.text-btn {
+  @include font ($size: 16px, $line-height: 24px, $color: $color-white);
+}
 
-  .text-add {
-    @include font ($size: 18px, $line-height: 32px, $weight: 600);
-    margin-bottom: 4px;
-  }
+.text-add {
+  @include font ($size: 18px, $line-height: 32px, $weight: 600);
+  margin-bottom: 4px;
+}
 
-  .title-filter {
-    @include font ($size: 16px, $line-height: 24px, $weight: 700);
+.title-filter {
+  @include font ($size: 16px, $line-height: 24px, $weight: 700);
+}
+
+.text-label {
+  @include font ($size: 16px, $line-height: 24px);
+}
+
+.title-price {
+  @include font ($size: 18px, $line-height: 32px, $weight: 600);
+  margin-bottom: 4px;
+}
+
+.text-pagin {
+  @include font ($size: 16px, $line-height: 24px, $color: $color-base);
+  text-decoration: none;
+
+  &--current {
+    color: $color-text-base;
+    font-weight: 700;
   }
+}
+
+.title-info {
+  @include font ($size: 14px, $line-height: 20px, $weight: 600, $color: $color-base);
+margin-bottom: 12px;
+}
+
+.text-mini {
+  @include font ($size: 14px, $line-height: 20px);
+}
+
+.text-dev {
+  @include font ($size: 12px, $line-height: 16px, $color: $color-grey);
+}

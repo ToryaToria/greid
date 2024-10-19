@@ -40,7 +40,7 @@
   height: 24px;
   border-radius: 50%;
   background-color: #ffffff;
-  border: 1px solid $color-base-light;
+  border: 2px solid $color-base-light;
 
   &--min {
     top: -10px;
@@ -65,7 +65,7 @@
   border: 2px solid #82b3d3;
 }
 
-/* +++++++++++++ КАТАЛОГ  range +++++++++++++++++++*/
+/* +++++++++++++ мин и мах  range +++++++++++++++++++*/
 
 .range__xz {
   width: 8px;
