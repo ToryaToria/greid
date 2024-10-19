@@ -33,14 +33,13 @@
 // border-color: $color-black;
 // }
 
-.control__input:checked+.control__mark-radio {
+.control__input:checked + .control__mark-radio {
   border-color: $color-base;
 }
 
-.control__input[type="radio"]:checked+.control__mark-radio::before {
+.control__input[type="radio"]:checked + .control__mark-radio::before {
   content: "";
   display: block;
-
 }
 
 
@@ -52,9 +51,7 @@
   // border: 1px solid $color-text-second;
   border-radius: 12px;
   // padding: 2px 20px 2px 2px;
-background-color: $color-grey;
-
-
+  background-color: $color-grey;
 
   display: flex;
   justify-content: center;
@@ -77,23 +74,23 @@ background-color: $color-grey;
 // border-color: $color-black;
 // }
 
-.control__input[type="checkbox"]:checked  ~ .control__mark-check {
+.control__input[type="checkbox"]:checked ~ .control__mark-check {
   background-color: $color-base;
 }
 
-.control__input[type="checkbox"]:disabled  ~ .control__mark-check {
+.control__input[type="checkbox"]:disabled ~ .control__mark-check {
   background-color: $color-grey-light;
   cursor: no-drop;
 }
 
-.control__input[type="radio"]:disabled  ~ .control__mark-radio {
+.control__input[type="radio"]:disabled ~ .control__mark-radio {
   border-color: $color-grey-light;
   cursor: no-drop;
 }
 
-.control__input[type="checkbox"]:disabled  ~ .text-label,
-.control__input[type="radio"]:disabled  ~ .text-label {
-    color:$color-grey-light;
+.control__input[type="checkbox"]:disabled ~ .text-label,
+.control__input[type="radio"]:disabled ~ .text-label {
+  color: $color-grey-light;
   // cursor: no-drop;
 }
 

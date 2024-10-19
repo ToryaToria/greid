@@ -7,7 +7,6 @@
 .catalog__badge {
   margin-bottom: 4px;
   text-align: center;
-
 }
 
 .catalog__section {
@@ -28,7 +27,7 @@
 // }
 
 .catalog__select {
-  -webkit-appearance: none;
+  // -webkit-appearance: none;
   appearance: none;
 
   box-sizing: border-box;
@@ -48,5 +47,5 @@
 }
 
 .catalog__price {
- margin-bottom: 44px;
-} 
+  margin-bottom: 44px;
+}

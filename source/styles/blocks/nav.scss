@@ -6,6 +6,7 @@
 
 .nav__list {
   display: none;
+
   @include list-reset;
 
   @include media-tablet {
@@ -14,15 +15,12 @@
   }
 }
 
-
-
 .nav__link {
   padding: 32px 20px;
   display: flex;
 
   &--current {
     color: $color-base;
-
     border-bottom: 2px solid $color-base;
   }
 }

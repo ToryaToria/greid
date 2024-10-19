@@ -21,7 +21,7 @@
   padding-right: 8px;
   width: 16px;
   height: 16px;
-  background-image: url('../../icons/basket.svg');
+  background-image: url("../../icons/basket.svg");
 }
 
 .icon--user::before {
@@ -29,23 +29,23 @@
   padding-right: 8px;
   width: 16px;
   height: 16px;
-  background-image: url('../../icons/user.svg');
+  background-image: url("../../icons/user.svg");
 }
 
 .icon--speed::before {
-   background-image: url('../../icons/icon_speed.svg');
+  background-image: url("../../icons/icon_speed.svg");
 }
 
 .icon--comfort::before {
-  background-image: url('../../icons/icon_comfort.svg');
+  background-image: url("../../icons/icon_comfort.svg");
 }
 
 .icon--features::before {
-  background-image: url('../../icons/icon_features.svg');
+  background-image: url("../../icons/icon_features.svg");
 }
 
 .icon--ecolog::before {
-  background-image: url('../../icons/icon_ecolog.svg');
+  background-image: url("../../icons/icon_ecolog.svg");
 }
 
 .icon-btn::before {
@@ -53,7 +53,7 @@
   width: 20px;
   height: 16px;
   margin: 2px 6px 2px 0;
-  background-image: url('../../icons/basket_add.svg');
+  background-image: url("../../icons/basket_add.svg");
 }
 
 .icon-vk {
@@ -76,31 +76,26 @@
 
 
 .icon-adress {
-  display: flex;  
+  display: flex;
   gap: 6px;
 }
 
 .icon-phone {
-  display: flex;  
+  display: flex;
   gap: 6px;
   align-items: center;
-  }
-.icon-phone {
-display: flex;  
-gap: 6px;
-align-items: center;
 }
 
 .icon-adress::before {
   display: inline-block;
   width: 13px;
   height: 16px;
-  background-image: url('../../icons/address.svg');
+  background-image: url("../../icons/address.svg");
 }
 
 .icon-phone::before {
   display: inline-block;
   width: 13px;
   height: 16px;
-  background-image: url('../../icons/phone.svg');
+  background-image: url("../../icons/phone.svg");
 }

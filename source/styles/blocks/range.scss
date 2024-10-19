@@ -65,8 +65,7 @@
   border: 2px solid #82b3d3;
 }
 
-/* +++++++++++++ мин и мах  range +++++++++++++++++++*/
-
+/* +++++++++++++ мин и мах  range +++++++++++++++++++ */
 .range__xz {
   width: 8px;
   height: 2px;
@@ -75,7 +74,7 @@
 
 .range__filed::-webkit-outer-spin-button,
 .range__filed::-webkit-inner-spin-button {
-  -webkit-appearance: none;
+  // -webkit-appearance: none;
 }
 
 .range__wrapp-field {
@@ -93,7 +92,7 @@
 .label-price-text {
   position: absolute;
   top: 50%;
-  transform: translatey(-50%);
+  transform: translateY(-50%);
   right: 20px;
 
   max-width: 50px;
@@ -118,5 +117,3 @@
 .max-price {
   border-radius: 0 5px 5px 0;
 }
-
-
