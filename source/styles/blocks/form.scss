@@ -9,6 +9,11 @@
   margin-bottom: 30px;
 
   outline: auto;
+  box-sizing: border-box;
+
+  @include media-tablet {
+    width: 223px;
+  }
 }
 
 .form__title {
@@ -26,4 +31,17 @@
   display: flex;
   flex-direction: column;
   gap: 28px;
+
+  @include media-tablet {
+    flex-direction: row;
+    gap: 20px;
+justify-content: center; 
+ }
+}
+
+.form__wrapp {
+  @include media-tablet {
+    display: flex;
+    gap: 28px;
+  }
 }
