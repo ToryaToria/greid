@@ -9,7 +9,7 @@
     flex-direction: row;
     gap: 30px;
     flex-wrap: wrap;
-}
+  }
 }
 
 .price__card {
@@ -18,9 +18,12 @@
   padding: 40px 20px 20px;
 
   @include media-tablet {
-  width: 349px;
-  padding: 50px 30px 30px;
+    width: 349px;
+    padding: 50px 30px 30px;
+  }
 
+  @include media-desktop {
+    width: 317px;
   }
 }
 

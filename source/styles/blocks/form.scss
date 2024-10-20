@@ -1,5 +1,10 @@
 .form {
   margin-bottom: 44px;
+
+  @include media-desktop {
+    box-sizing: border-box;
+    width: 318px;
+  }
 }
 
 .form__field {
@@ -13,6 +18,10 @@
 
   @include media-tablet {
     width: 223px;
+  }
+
+  @include media-desktop {
+    width: 318px;
   }
 }
 
@@ -35,13 +44,18 @@
   @include media-tablet {
     flex-direction: row;
     gap: 20px;
-justify-content: center; 
- }
+    justify-content: center;
+  }
 }
 
 .form__wrapp {
   @include media-tablet {
     display: flex;
     gap: 28px;
+  }
+
+  @include media-desktop {
+    flex-direction: column;
+    gap: 30px;
   }
 }

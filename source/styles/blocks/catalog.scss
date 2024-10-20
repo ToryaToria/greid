@@ -7,6 +7,11 @@
     padding-top: 80px;
     padding-bottom: 90px;
   }
+
+  @include media-desktop {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
 }
 
 .catalog__badge {
@@ -17,6 +22,17 @@
 .catalog__section {
   text-align: center;
   margin-bottom: 20px;
+
+  @include media-desktop {
+    margin-bottom: 40px;
+  }
+}
+
+.catalog__wrapp {
+  @include media-desktop {
+    display: flex;
+    gap: 30px;
+  }
 }
 
 .catalog__sort-wrapp {
@@ -29,6 +45,10 @@
     justify-content: right;
     gap: 10px;
     margin-bottom: 26px;
+  }
+
+  @include media-desktop {
+    margin-bottom: 30px;
   }
 }
 

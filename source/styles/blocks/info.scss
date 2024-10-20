@@ -29,6 +29,10 @@
     width: 223px;
     border-top: none;
   }
+
+  @include media-desktop {
+    width: 318px;
+  }
 }
 
 .info__subdirectory {
